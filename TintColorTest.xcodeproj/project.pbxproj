@@ -14,6 +14,7 @@
 		357FFCCB1AD475F9006C80D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357FFCCA1AD475F9006C80D9 /* Images.xcassets */; };
 		357FFCCE1AD475F9006C80D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357FFCCC1AD475F9006C80D9 /* LaunchScreen.xib */; };
 		357FFCDA1AD475F9006C80D9 /* TintColorTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FFCD91AD475F9006C80D9 /* TintColorTestTests.m */; };
+		357FFCE51AD47D83006C80D9 /* TestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FFCE41AD47D83006C80D9 /* TestCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		357FFCD31AD475F9006C80D9 /* TintColorTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TintColorTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		357FFCD81AD475F9006C80D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		357FFCD91AD475F9006C80D9 /* TintColorTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TintColorTestTests.m; sourceTree = "<group>"; };
+		357FFCE31AD47D83006C80D9 /* TestCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewCell.h; sourceTree = "<group>"; };
+		357FFCE41AD47D83006C80D9 /* TestCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				357FFCCA1AD475F9006C80D9 /* Images.xcassets */,
 				357FFCCC1AD475F9006C80D9 /* LaunchScreen.xib */,
 				357FFCBD1AD475F9006C80D9 /* Supporting Files */,
+				357FFCE31AD47D83006C80D9 /* TestCollectionViewCell.h */,
+				357FFCE41AD47D83006C80D9 /* TestCollectionViewCell.m */,
 			);
 			path = TintColorTest;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				357FFCC61AD475F9006C80D9 /* ViewController.m in Sources */,
 				357FFCC31AD475F9006C80D9 /* AppDelegate.m in Sources */,
+				357FFCE51AD47D83006C80D9 /* TestCollectionViewCell.m in Sources */,
 				357FFCC01AD475F9006C80D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
